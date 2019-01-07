@@ -1,0 +1,97 @@
+Array size: 4000. Loop num: 30
+Testing random array:
+    quick: 38301.627±2108.973 us per loop. Relative: 100%
+    merge: 37607.050±1995.884 us per loop. Relative: 98%
+    heap: 58523.345±2289.726 us per loop. Relative: 153%
+    tim: 38229.990±4183.919 us per loop. Relative: 100%
+
+Testing ordered array:
+    quick: 20584.766±1320.821 us per loop. Relative: 100%
+    merge: 22106.393±1730.149 us per loop. Relative: 107%
+    heap: 56940.699±3056.400 us per loop. Relative: 277%
+    tim: 2217.674±330.962 us per loop. Relative: 11%
+
+Testing reversed array:
+    quick: 40965.350±5794.283 us per loop. Relative: 100%
+    merge: 24360.593±1711.367 us per loop. Relative: 59%
+    heap: 58624.069±4563.622 us per loop. Relative: 143%
+    tim: 2124.278±322.541 us per loop. Relative: 5%
+
+Testing same_elem array:
+    quick: 48030.281±4868.951 us per loop. Relative: 100%
+    merge: 36483.526±10117.202 us per loop. Relative: 76%
+    heap: 16213.441±2425.174 us per loop. Relative: 34%
+    tim: 6953.406±1411.317 us per loop. Relative: 14%
+
+Testing sorted_block_size_10 array:
+    quick: 51263.499±8255.084 us per loop. Relative: 100%
+    merge: 43249.917±6657.300 us per loop. Relative: 84%
+    heap: 72363.242±14860.769 us per loop. Relative: 141%
+    tim: 36092.401±4248.408 us per loop. Relative: 70%
+
+Testing sorted_block_size_100 array:
+    quick: 43853.545±5022.897 us per loop. Relative: 100%
+    merge: 30688.691±3723.497 us per loop. Relative: 70%
+    heap: 59654.212±5544.383 us per loop. Relative: 136%
+    tim: 26064.237±4687.481 us per loop. Relative: 59%
+
+Testing sorted_block_size_1000 array:
+    quick: 48035.359±2849.164 us per loop. Relative: 100%
+    merge: 26055.694±4589.574 us per loop. Relative: 54%
+    heap: 63493.522±10246.717 us per loop. Relative: 132%
+    tim: 9822.583±1776.322 us per loop. Relative: 20%
+
+Testing swapped_pair_50_percent array:
+    quick: 35112.635±2886.293 us per loop. Relative: 100%
+    merge: 39665.508±4498.097 us per loop. Relative: 113%
+    heap: 67721.597±10149.064 us per loop. Relative: 193%
+    tim: 38441.904±4530.343 us per loop. Relative: 109%
+
+Testing swapped_pair_10_percent array:
+    quick: 27472.440±3058.395 us per loop. Relative: 100%
+    merge: 32357.804±2752.508 us per loop. Relative: 118%
+    heap: 70524.271±12643.514 us per loop. Relative: 257%
+    tim: 31754.200±3063.629 us per loop. Relative: 116%
+
+Testing swapped_pair_1_percent array:
+    quick: 21677.423±2290.516 us per loop. Relative: 100%
+    merge: 28487.484±1864.820 us per loop. Relative: 131%
+    heap: 58260.902±2895.759 us per loop. Relative: 269%
+    tim: 20185.733±4119.045 us per loop. Relative: 93%
+
+Testing random_unsorted_area_50_percent array:
+    quick: 25947.769±2445.479 us per loop. Relative: 100%
+    merge: 26511.463±1689.296 us per loop. Relative: 102%
+    heap: 57778.104±4017.833 us per loop. Relative: 223%
+    tim: 12240.537±1664.512 us per loop. Relative: 47%
+
+Testing random_unsorted_area_10_percent array:
+    quick: 24051.396±3808.404 us per loop. Relative: 100%
+    merge: 23191.460±1497.059 us per loop. Relative: 96%
+    heap: 62822.564±7988.994 us per loop. Relative: 261%
+    tim: 4164.934±709.685 us per loop. Relative: 17%
+
+Testing random_unsorted_area_1_percent array:
+    quick: 21524.167±2134.292 us per loop. Relative: 100%
+    merge: 22879.148±2411.473 us per loop. Relative: 106%
+    heap: 57285.690±2246.008 us per loop. Relative: 266%
+    tim: 2447.478±314.863 us per loop. Relative: 11%
+
+Testing random_bubble_1_fold array:
+    quick: 26820.612±3416.634 us per loop. Relative: 100%
+    merge: 25262.896±2080.357 us per loop. Relative: 94%
+    heap: 57111.263±3006.386 us per loop. Relative: 213%
+    tim: 10011.562±489.037 us per loop. Relative: 37%
+
+Testing random_bubble_5_fold array:
+    quick: 31955.942±2482.187 us per loop. Relative: 100%
+    merge: 33567.103±2708.369 us per loop. Relative: 105%
+    heap: 58865.635±6053.455 us per loop. Relative: 184%
+    tim: 29152.552±6365.810 us per loop. Relative: 91%
+
+Testing random_bubble_10_fold array:
+    quick: 43036.930±9010.881 us per loop. Relative: 100%
+    merge: 36823.058±3065.310 us per loop. Relative: 86%
+    heap: 59624.982±3497.506 us per loop. Relative: 139%
+    tim: 31737.336±5041.153 us per loop. Relative: 74%
+

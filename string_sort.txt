@@ -1,0 +1,97 @@
+Array size: 5000. Loop num: 50
+Testing random array:
+    quick: 875.010±176.441 us per loop. Relative: 100%
+    merge: 938.883±118.542 us per loop. Relative: 107%
+    heap: 1339.211±260.918 us per loop. Relative: 153%
+    tim: 1012.807±226.439 us per loop. Relative: 116%
+
+Testing ordered array:
+    quick: 303.459±162.121 us per loop. Relative: 100%
+    merge: 253.396±67.878 us per loop. Relative: 84%
+    heap: 1045.561±211.565 us per loop. Relative: 345%
+    tim: 73.662±55.844 us per loop. Relative: 24%
+
+Testing reversed array:
+    quick: 326.343±79.057 us per loop. Relative: 100%
+    merge: 632.901±145.695 us per loop. Relative: 194%
+    heap: 940.537±199.296 us per loop. Relative: 288%
+    tim: 82.669±56.643 us per loop. Relative: 25%
+
+Testing same_elem array:
+    quick: 331.454±76.133 us per loop. Relative: 100%
+    merge: 336.137±90.993 us per loop. Relative: 101%
+    heap: 174.131±50.026 us per loop. Relative: 53%
+    tim: 52.586±28.534 us per loop. Relative: 16%
+
+Testing sorted_block_size_10 array:
+    quick: 810.800±122.883 us per loop. Relative: 100%
+    merge: 549.898±90.617 us per loop. Relative: 68%
+    heap: 1153.522±190.125 us per loop. Relative: 142%
+    tim: 469.103±145.576 us per loop. Relative: 58%
+
+Testing sorted_block_size_100 array:
+    quick: 764.108±188.606 us per loop. Relative: 100%
+    merge: 465.856±126.424 us per loop. Relative: 61%
+    heap: 1248.727±251.839 us per loop. Relative: 163%
+    tim: 272.841±51.529 us per loop. Relative: 36%
+
+Testing sorted_block_size_1000 array:
+    quick: 635.524±128.709 us per loop. Relative: 100%
+    merge: 398.641±80.198 us per loop. Relative: 63%
+    heap: 1153.250±264.348 us per loop. Relative: 181%
+    tim: 186.467±67.491 us per loop. Relative: 29%
+
+Testing swapped_pair_50_percent array:
+    quick: 786.920±164.725 us per loop. Relative: 100%
+    merge: 973.492±182.084 us per loop. Relative: 124%
+    heap: 1309.037±265.454 us per loop. Relative: 166%
+    tim: 900.459±167.139 us per loop. Relative: 114%
+
+Testing swapped_pair_10_percent array:
+    quick: 418.491±86.559 us per loop. Relative: 100%
+    merge: 638.976±131.777 us per loop. Relative: 153%
+    heap: 1166.863±196.089 us per loop. Relative: 279%
+    tim: 644.078±162.491 us per loop. Relative: 154%
+
+Testing swapped_pair_1_percent array:
+    quick: 285.196±76.842 us per loop. Relative: 100%
+    merge: 426.745±104.557 us per loop. Relative: 150%
+    heap: 1035.404±200.898 us per loop. Relative: 363%
+    tim: 281.281±86.598 us per loop. Relative: 99%
+
+Testing random_unsorted_area_50_percent array:
+    quick: 462.332±88.245 us per loop. Relative: 100%
+    merge: 488.238±67.530 us per loop. Relative: 106%
+    heap: 1256.809±222.171 us per loop. Relative: 272%
+    tim: 324.235±77.113 us per loop. Relative: 70%
+
+Testing random_unsorted_area_10_percent array:
+    quick: 264.263±75.817 us per loop. Relative: 100%
+    merge: 413.108±134.926 us per loop. Relative: 156%
+    heap: 916.591±129.237 us per loop. Relative: 347%
+    tim: 91.100±37.835 us per loop. Relative: 34%
+
+Testing random_unsorted_area_1_percent array:
+    quick: 275.083±86.181 us per loop. Relative: 100%
+    merge: 271.277±71.372 us per loop. Relative: 99%
+    heap: 844.545±123.626 us per loop. Relative: 307%
+    tim: 46.268±19.150 us per loop. Relative: 17%
+
+Testing random_bubble_1_fold array:
+    quick: 388.269±128.530 us per loop. Relative: 100%
+    merge: 389.285±118.873 us per loop. Relative: 100%
+    heap: 949.526±148.918 us per loop. Relative: 245%
+    tim: 277.305±47.581 us per loop. Relative: 71%
+
+Testing random_bubble_5_fold array:
+    quick: 549.884±59.776 us per loop. Relative: 100%
+    merge: 663.180±84.326 us per loop. Relative: 121%
+    heap: 1057.177±111.145 us per loop. Relative: 192%
+    tim: 636.020±195.925 us per loop. Relative: 116%
+
+Testing random_bubble_10_fold array:
+    quick: 636.420±74.732 us per loop. Relative: 100%
+    merge: 776.987±178.159 us per loop. Relative: 122%
+    heap: 1120.815±152.244 us per loop. Relative: 176%
+    tim: 759.950±194.965 us per loop. Relative: 119%
+
